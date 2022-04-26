@@ -34,4 +34,4 @@ public static class ExportPackage {
 출처 : 
 
 ## Waving <a id="ㅅㅎㄷㄴㅅ">
-![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Waving!&fontAlign=80&fontAlignY=40&color=gradient)
+![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=유니티 프로젝트 전체 익스포트하기&fontAlign=80&fontAlignY=40&color=gradient)
