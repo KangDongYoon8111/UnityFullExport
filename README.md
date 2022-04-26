@@ -31,7 +31,4 @@ public static class ExportPackage {
  
 }
 ```
-출처 : 
-
-## Waving <a id="waving">
-![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=유니티 프로젝트 전체 익스포트하기&fontAlign=80&fontAlignY=40&color=gradient)
+출처 : https://ijemin.com/blog/%EC%9C%A0%EB%8B%88%ED%8B%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A0%84%EC%B2%B4-%EC%9D%B5%EC%8A%A4%ED%8F%AC%ED%8A%B8%ED%95%98%EA%B8%B0/
