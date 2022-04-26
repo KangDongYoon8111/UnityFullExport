@@ -1,6 +1,5 @@
 # 유니티 프로젝트 전체 익스포트하기
-```
-```
+
 유니티에 기본 내장된 패키지 제작툴(Assets > Export Package)은 태그와 레이어, 빌드 세팅 등의 프로젝트 세팅은 함께 익스포트 해주지 않는다.
 
 라이트 유저에게는 프로젝트 세팅까지 같이 익스포트하는게 오버킬이라 생각하는 듯.
@@ -32,3 +31,7 @@ public static class ExportPackage {
  
 }
 ```
+출처 : 
+
+## Waving <a id="ㅅㅎㄷㄴㅅ">
+![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Waving!&fontAlign=80&fontAlignY=40&color=gradient)
