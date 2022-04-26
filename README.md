@@ -1,6 +1,5 @@
 # 유니티 프로젝트 전체 익스포트하기
 ```
-https://capsule-render.vercel.app/api?
 ```
 유니티에 기본 내장된 패키지 제작툴(Assets > Export Package)은 태그와 레이어, 빌드 세팅 등의 프로젝트 세팅은 함께 익스포트 해주지 않는다.
 
@@ -14,5 +13,22 @@ https://capsule-render.vercel.app/api?
 
 Markdown:
 ```
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90)
+
+
+using UnityEngine;
+using System.Collections;
+using UnityEditor;
+ 
+public static class ExportPackage {
+ 
+
+    [MenuItem("Export/Export with tags and layers, Input settings")]
+    public static void export()
+    {
+        string[] projectContent = new string[] {"Assets", "ProjectSettings/TagManager.asset","ProjectSettings/InputManager.asset","ProjectSettings/ProjectSettings.asset"};
+        AssetDatabase.ExportPackage(projectContent, "Done.unitypackage",ExportPackageOptions.Interactive | ExportPackageOptions.Recurse |ExportPackageOptions.IncludeDependencies);
+        Debug.Log("Project Exported");
+    }
+ 
+}
 ```
