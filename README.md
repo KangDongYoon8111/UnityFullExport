@@ -10,7 +10,6 @@
 
 유니티 프로젝트 경로의 Assets 폴더 내부에 Editor 라는 폴더를 만들고 그곳에 집어넣으면 유니티 에디터 상단에 Export/Export with tags and layers, Input settings 라는 메뉴가 생길 것이다.
 
-Markdown:
 ```
 
 
